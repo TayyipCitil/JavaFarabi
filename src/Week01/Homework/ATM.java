@@ -1,6 +1,6 @@
-package Hafta01;
+package Week01.Homework;
 
-public class Odev01 {
+public class ATM {
     static void main() {
         int cekilecekTutar=530;
         int ikiYuzlukBanknontAdedi=cekilecekTutar/200;
@@ -13,5 +13,6 @@ public class Odev01 {
         System.out.println(ikiYuzlukBanknontAdedi+ " tane 200TL ");
         System.out.println(yuzlukBanknontAdedi + " tane 100TL ");
         System.out.println(onlukBanknontAdedi+ " tane 10TL ");
+
     }
 }

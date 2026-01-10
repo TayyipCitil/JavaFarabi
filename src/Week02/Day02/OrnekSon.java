@@ -1,4 +1,4 @@
-package Hafta02.Ders02;
+package Week02.Day02;
 
 public class OrnekSon {
     static void main() {

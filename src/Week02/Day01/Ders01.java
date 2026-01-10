@@ -1,4 +1,4 @@
-package Hafta02.Ders01;
+package Week02.Day01;
 
 public class Ders01 {
     static void main() {
