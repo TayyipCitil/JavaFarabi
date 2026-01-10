@@ -1,6 +1,6 @@
 package Week02.Day01;
 
-public class Ders01 {
+public class TekCift {
     static void main() {
         int sayi=-58;
         boolean tekMi=false;
@@ -11,9 +11,5 @@ public class Ders01 {
             System.out.println(sayi+ " tektir.");
             tekMi=true;
         }
-
-
-
-
     }
 }
