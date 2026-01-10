@@ -1,6 +1,6 @@
 package Week02.Day02;
 
-public class ornek2 {
+public class AktiviteTavsiye {
     static void main() {
         int derece=20;
 

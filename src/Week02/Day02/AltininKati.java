@@ -1,6 +1,6 @@
 package Week02.Day02;
 
-public class ornek {
+public class AltininKati {
     static void main() {
         int sayi=12;
 

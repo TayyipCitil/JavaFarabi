@@ -1,6 +1,6 @@
 package Week02.Day02;
 
-public class ornek3 {
+public class NotSistemi {
     static void main() {
         double finalNot = 50;
         double vize = 90;

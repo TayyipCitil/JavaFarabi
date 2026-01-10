@@ -1,6 +1,6 @@
 package Week02.Day02;
 
-public class Kosul {
+public class IfElse {
     static void main() {
         int sayi=2;
         if (sayi==1){
