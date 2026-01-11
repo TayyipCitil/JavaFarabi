@@ -13,6 +13,5 @@ public class ATM {
         System.out.println(ikiYuzlukBanknontAdedi+ " tane 200TL ");
         System.out.println(yuzlukBanknontAdedi + " tane 100TL ");
         System.out.println(onlukBanknontAdedi+ " tane 10TL ");
-
     }
 }

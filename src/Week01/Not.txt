@@ -115,6 +115,8 @@
         short (16 bit) (-32.768 ile 32.767)
         int (32 bit) (+-2.147.1483.647)
         long (64 bit)
+
+        NOT:long bir değerin sonuna L yazılır(int sınırının dışındaysa zorunlu)
         */
         byte sayi1=25;
         short sayi2=31500;
@@ -125,6 +127,9 @@
         Ondalıklı sayılar:
         float (32 bit): virgülden sonra 6-7 digit
         double (64 bit): virgülden sonra 15-16 digit
+
+        NOT:float bir değerin sonuna f yazılır(zorunludur)
+            double bir değerin sonuna d yazılır(zorunlu değil)
         */
         float sayi5=0.12312f;
         double sayi6=0.12312312d;
@@ -132,11 +137,19 @@
         // boolean (1 bit: 0-false veya 1-true)
         boolean dogruMu=true;
 
-        //char (16 bit) ASCII(8 bit)/UNICODE(8 veya 16 bit)
+        /*
+        char (16 bit) (0 ile 65535) ASCII(8 bit)/UNICODE(8 veya 16 bit)
+
+        NOT:karakter değerleri tek tırnak içerisinde gösterilir(zorunludur)
+        */
         char harfNotu='A';
         char buyukA=65;
 
-        // String (non-primitive)
+        /* String (non-primitive)
+
+        NOT:metinsel değerler çift tırnak içerisinde gösterilir(zorunludur)
+        NOT:non-primitive tiplere başka örnekler:Array,Class,Enum,Interface,...
+        */
         String ad = "Tayyip";
 
 
@@ -147,6 +160,7 @@
         byte sayiByte=10;
         double sayiDouble=sayiByte;
         int sayiInt=(int) sayiDouble;
+        short ascii=(short) 'a';
 
 
        //Operatörler
