@@ -1,218 +1,216 @@
 
-        // Tek satır için yorum satırı yazmamızı sağlar
+// Tek satır için yorum satırı yazmamızı sağlar
 
-        /*
-        Çoklu satır için yorum satırı yazmamızı sağlar
-        */
+/*
+Çoklu satır için yorum satırı yazmamızı sağlar
+*/
 
-        //Bilgisayar(Computer): Bilgi işleme makinesi.
-        //Donanım(Hardware)   : İşleyen (fiziksel parçalar)
-        //Yazılım(Software)   : İşleten (donanıma ne yapacağını söyleyen komutlar ve programlardır)
-        //Veri(Data)          : İşlenen, ham bilgi(bir çok farklı türde olabilir metin,sayı)
+//Bilgisayar(Computer): Bilgi işleme makinesi.
+//Donanım(Hardware)   : İşleyen (fiziksel parçalar)
+//Yazılım(Software)   : İşleten (donanıma ne yapacağını söyleyen komutlar ve programlardır)
+//Veri(Data)          : İşlenen, ham bilgi(bir çok farklı türde olabilir metin,sayı)
 
-        //Komut  :Donanıma yaptırılabilen en küçük yazılımdır.(Terminal'e yazılır, shell tarafından çalıştırılır)
-        //Program:Birden fazla komutun mantıklı bir şekilde bir araya gelmiş halidir.
-        //Kod    :Bir programı oluşturmak için yazılan metindir.
+//Komut  :Donanıma yaptırılabilen en küçük yazılımdır.(Terminal'e yazılır, shell tarafından çalıştırılır)
+//Program:Birden fazla komutun mantıklı bir şekilde bir araya gelmiş halidir.
+//Kod    :Bir programı oluşturmak için yazılan metindir.
 
-        /*
-        Donanım tek başına işe yaramazdır.
-        Ona yapması gerekenleri söyleyen yazılıma ihtiyacı vardır.
-        Donanıma ne yapacağını söyleyebilmemiz için onun anlayabileceği
-        bir dile (makine dili) ihtiyacımız var.
-        Donanım sadece 2 durumu anlayabilir:elektrik yok(0),elektrik var(1)
-        Bu sebeple makine dili binary(ikili sayı sistemi) olmalıdır.
-        Fakat makine dili insanlar içn çok karmaşıktır bu yüzden
-        "anlayacağımız şekilde yazalım,bilgisayar bunu kendi diline çevirsin"
-        fikri geliştirildi.
-        Harfleri, noktalama işaretlerini ve diğer sembolleri ikili sistemde
-        temsil edecek binary sayılar belirlendi.(ASCII,Unicode)
-        */
+/*
+Donanım tek başına işe yaramazdır.
+Ona yapması gerekenleri söyleyen yazılıma ihtiyacı vardır.
+Donanıma ne yapacağını söyleyebilmemiz için onun anlayabileceği
+bir dile (makine dili) ihtiyacımız var.
+Donanım sadece 2 durumu anlayabilir:elektrik yok(0),elektrik var(1)
+Bu sebeple makine dili binary(ikili sayı sistemi) olmalıdır.
+Fakat makine dili insanlar içn çok karmaşıktır bu yüzden
+"anlayacağımız şekilde yazalım,bilgisayar bunu kendi diline çevirsin"
+fikri geliştirildi.
+Harfleri, noktalama işaretlerini ve diğer sembolleri ikili sistemde
+temsil edecek binary sayılar belirlendi.(ASCII,Unicode)
+*/
 
-        //İkili sayı sistemi(Binary)
-        /*
-        bit = (0 veya 1)
-        Byte = 8 bits
-        1 KB = 1024 Bytes
-        1 MB = 1024 KB
-        1 GB = 1024 MB
-        1 TB = 1024 GB
-        --------------
-        Nibble = 4 bit
-        Word = 16 bit
-        */
+//İkili sayı sistemi(Binary)
+/*
+bit = (0 veya 1)
+Byte = 8 bits
+1 KB = 1024 Bytes
+1 MB = 1024 KB
+1 GB = 1024 MB
+1 TB = 1024 GB
+--------------
+Nibble = 4 bit
+Word = 16 bit
+*/
 
-        /*
-        Programlama: Bir programı oluşturmak için gerekli komutların
-                     belirlenmesi ve uygun biçimde kullanılması.
-                     (programlamaya başlamadan önce problemin algoritmasının
-                     oluşturulması gereklidir)
+/*
+Programlama: Bir programı oluşturmak için gerekli komutların
+             belirlenmesi ve uygun biçimde kullanılması.
+             (programlamaya başlamadan önce problemin algoritmasının
+              oluşturulması gereklidir)
 
-        Algoritma: Bir problemin çözmek için takip edilecek sonlu sayıda, sıralı ve kesin
-                   adımlardan oluşan çözüm yoludur.(Harezmi'nin adından gelir)
-                   Algoritma 3 farklı şekilde oluşturulabilir:Satır Algoritması, Akış Şeması(Flow Chart), Sözde Kod(Pseude Code)
+Algoritma: Bir problemin çözmek için takip edilecek sonlu sayıda, sıralı ve kesin
+           adımlardan oluşan çözüm yoludur.(Harezmi'nin adından gelir)
+           Algoritma 3 farklı şekilde oluşturulabilir:Satır Algoritması, Akış Şeması(Flow Chart), Sözde Kod(Pseude Code)
 
-        Programlama Dili: İnsanlar ile bilgisayarlar arasındaki iletişimi sağlayan,
-                          belirli kurallara ve söz dizimine(syntax) sahip olan yapay dillerdir.(Java,C,Python,...)
+Programlama Dili: İnsanlar ile bilgisayarlar arasındaki iletişimi sağlayan,
+            belirli kurallara ve söz dizimine(syntax) sahip olan yapay dillerdir.(Java,C,Python,...)
 
-        Syntax(Söz dizilimi): Programlama dilinin dil bilgisi (gramer) kurallarıdır.
-                              (Örneğin java'da her bir komut satırının sonuna noktalı virgül(;) konulur)
+Syntax(Söz dizilimi): Programlama dilinin dil bilgisi (gramer) kurallarıdır.
+                      (Örneğin java'da her bir komut satırının sonuna noktalı virgül(;) konulur)
 
-        Kaynak Kod(Source Code): Bir programlama diliyle yazılmış metinlere denir.
+Kaynak Kod(Source Code): Bir programlama diliyle yazılmış metinlere denir.
 
-        Makine Kodu: Bilgisayarın direkt anlayabildiği yegane dil.
+Makine Kodu: Bilgisayarın direkt anlayabildiği yegane dil.
 
-        Derleyici(Compiler) ve Yorumlayıcı(Interpreter): Kaynak kodu makine koduna dönüştüren araçlardır.
-                                                         (Derleyici tek seferde, yorumlayıcı ise satır satır çevirir)
+Derleyici(Compiler) ve Yorumlayıcı(Interpreter): Kaynak kodu makine koduna dönüştüren araçlardır.
+                                                 (Derleyici tek seferde, yorumlayıcı ise satır satır çevirir)
 
-        Kod Düzenleyici: Kaynak kodu yazmak düzenlemek için kullanılan araçtır.(not defteri)
+Kod Düzenleyici: Kaynak kodu yazmak düzenlemek için kullanılan araçtır.(not defteri)
 
-        IDE(Integrated Development Environment): Sadece yazmayı ve düzenlemeyi sağlamakla sınırlı kalmayıp
-                                                 düzenlemeyi kolaylaştıran bir çok araç barındıran
-                                                 belirli bir programlama dili için özelleştirilmiş gelişmiş
-                                                 kod düzenleyicileridir.(intellij idea,PyCharm,...)
-        */
+IDE(Integrated Development Environment): Sadece yazmayı ve düzenlemeyi sağlamakla sınırlı kalmayıp
+                                         düzenlemeyi kolaylaştıran bir çok araç barındıran
+                                         belirli bir programlama dili için özelleştirilmiş gelişmiş
+                                         kod düzenleyicileridir.(intellij idea,PyCharm,...)
+*/
 
-        /*Java'yı Tanıyalım:
-        JDK(Java Development Kit): Bu dilede uygulama geliştirebilmemizi sağlayan yazılım paketidir.
+/* Java'yı Tanıyalım:
+  JDK(Java Development Kit): Bu dilede uygulama geliştirebilmemizi sağlayan yazılım paketidir.
                                    (Bu olmadan kodlar sadece metin)
-        JVM(Java Virtual Machine): Bu dilin platformdan bağımsız çalışmasını sağlayan araç.
+  JVM(Java Virtual Machine): Bu dilin platformdan bağımsız çalışmasını sağlayan araç.
 
-        JRE(Java Runtime Environment): Bu dilde yazılmış programları çalıştırmak için gereken eklentidir.
-        */
+  JRE(Java Runtime Environment): Bu dilde yazılmış programları çalıştırmak için gereken eklentidir.
+*/
 
-        //Programlamaya Giriş:
-
-
-        /*Değişkenler(Veriables):Geçici verileri saklamak için ayırdığımız bellek bölümüdür.
-                                 Bir değişkenin 4 farklı özelliği vardır: identifier, data type, value(data), adress
-         Değişken oluşturma syntax'ı
-         dataTypes identifier = value;
-        */
+//Programlamaya Giriş:
 
 
-        /* Tanımlayıcı(Identifier):Kod yazarken kendi belirlediğiniz her isim bir tanımlayıcıdır.
-
-           Tanımlayıcı Oluşturma Kuralları :
-             İçerisinde harfler, rakamlar,  _ ve  $ işareti bulunabilir.
-             Rakam ile başlayamaz
-             Türkçe karakterler bulunduramaz ıİüÜöÖğĞçÇşŞ
-             Java diline ait anahtar kelimeler tek başına kullanılamaz(int,public,...)
-
-           Yazılımcı Jargonu:
-             Yapmazsak hata oluşmaz ama kodun okunabilirliğini artırır.
-             *Upper Camel Case(Pascal Case): AdSoyad
-             *Lower Camel Case: adSoyad
-             Upper Snake Case : Ad_Soyad
-             Lower Snake Case : ad_soyad
-             *Screaming Snake Case: AD_SOYAD
-        */
+/* Değişkenler(Veriables):Geçici verileri saklamak için ayırdığımız bellek bölümüdür.
+                         Bir değişkenin 4 farklı özelliği vardır: identifier, data type, value(data), adress
+  Değişken oluşturma syntax'ı
+  dataTypes identifier = value;
+*/
 
 
-        //Veri Tipleri(Data Types):
-        /*
-        Tamsayılar:
-        byte (8 bit) (-128 ile 127 arasında)
-        short (16 bit) (-32.768 ile 32.767)
-        int (32 bit) (+-2.147.1483.647)
-        long (64 bit)
+/* Tanımlayıcı(Identifier):Kod yazarken kendi belirlediğiniz her isim bir tanımlayıcıdır.
 
-        NOT:long bir değerin sonuna L yazılır(int sınırının dışındaysa zorunlu)
-        */
-        byte sayi1=25;
-        short sayi2=31500;
-        int sayi3=56646546;
-        long sayi4=1231231231231L;
+   Tanımlayıcı Oluşturma Kuralları :
+       İçerisinde harfler, rakamlar,  _ ve  $ işareti bulunabilir.
+       Rakam ile başlayamaz
+       Türkçe karakterler bulunduramaz ıİüÜöÖğĞçÇşŞ
+       Java diline ait anahtar kelimeler tek başına kullanılamaz(int,public,...)
 
-        /*
-        Ondalıklı sayılar:
-        float (32 bit): virgülden sonra 6-7 digit
-        double (64 bit): virgülden sonra 15-16 digit
-
-        NOT:float bir değerin sonuna f yazılır(zorunludur)
-            double bir değerin sonuna d yazılır(zorunlu değil)
-        */
-        float sayi5=0.12312f;
-        double sayi6=0.12312312d;
-
-        // boolean (1 bit: 0-false veya 1-true)
-        boolean dogruMu=true;
-
-        /*
-        char (16 bit) (0 ile 65535) ASCII(8 bit)/UNICODE(8 veya 16 bit)
-
-        NOT:karakter değerleri tek tırnak içerisinde gösterilir(zorunludur)
-        */
-        char harfNotu='A';
-        char buyukA=65;
-
-        /* String (non-primitive)
-
-        NOT:metinsel değerler çift tırnak içerisinde gösterilir(zorunludur)
-        NOT:non-primitive tiplere başka örnekler:Array,Class,Enum,Interface,...
-        */
-        String ad = "Tayyip";
+   Yazılımcı Jargonu:
+       Yapmazsak hata oluşmaz ama kodun okunabilirliğini artırır.
+       *Upper Camel Case(Pascal Case): AdSoyad
+       *Lower Camel Case: adSoyad
+       Upper Snake Case : Ad_Soyad
+       Lower Snake Case : ad_soyad
+       *Screaming Snake Case: AD_SOYAD
+*/
 
 
-        /*Type Casting (Tip Dönüşümü):
-        Widening Casting (Genişletme): byte -> short -> char -> int -> long -> float -> double (otomatik)
-        Narrowing Casting (Daraltma): double -> float -> long -> int -> short -> byte (manuel)
-        */
-        byte sayiByte=10;
-        double sayiDouble=sayiByte;
-        int sayiInt=(int) sayiDouble;
-        short ascii=(short) 'a';
+//Veri Tipleri(Data Types):
+/*
+Tamsayılar:
+byte (8 bit) (-128 ile 127 arasında)
+short (16 bit) (-32.768 ile 32.767)
+int (32 bit) (+-2.147.1483.647)
+long (64 bit)
+
+NOT: long bir değerin sonuna L yazılır(int sınırının dışındaysa zorunlu)
+*/
+byte sayi1=25;
+short sayi2=31500;
+int sayi3=56646546;
+long sayi4=1231231231231L;
+
+/*
+Ondalıklı sayılar:
+float (32 bit): virgülden sonra 6-7 digit
+double (64 bit): virgülden sonra 15-16 digit
+
+NOT: float bir değerin sonuna f yazılır(zorunludur)
+     double bir değerin sonuna d yazılır(zorunlu değil)
+*/
+float sayi5=0.12312f;
+double sayi6=0.12312312d;
+
+// boolean (1 bit: 0-false veya 1-true)
+boolean dogruMu=true;
+
+/*
+char (16 bit) (0 ile 65535) ASCII(8 bit)/UNICODE(8 veya 16 bit)
+
+NOT:karakter değerleri tek tırnak içerisinde gösterilir(zorunludur)
+*/
+char harfNotu='A';
+char buyukA=65;
+
+/* String (non-primitive)
+
+NOT:metinsel değerler çift tırnak içerisinde gösterilir(zorunludur)
+NOT:non-primitive tiplere başka örnekler:Array,Class,Enum,Interface,...
+*/
+String ad = "Tayyip";
 
 
-       //Operatörler
-       /*
-       Aritmetik Operatörler:
-       + toplama
-       - çıkarma
-       * çarpma
-       / bölme
-       % mod alma (kalan bulma)
-       ++ bir artırma (sağdaysa işlemden sonra)
-       -- bir azaltma (sağdaysa işlemden sonra)
+/* Type Casting (Tip Dönüşümü):
+Widening Casting (Genişletme): byte -> short -> char -> int -> long -> float -> double (otomatik)
+Narrowing Casting (Daraltma): double -> float -> long -> int -> short -> byte (manuel)
+*/
+byte sayiByte=10;
+double sayiDouble=sayiByte;
+int sayiInt=(int) sayiDouble;
+short ascii=(short) 'a';
 
-       NOT:
-       İşlem önceliği:
-       () -> * ve / -> + ve -
-       Aynı önceliğe sahiplerse işlem sırası solda sağa doğru.
 
-       */
-       int toplam1=100+50;
-       int toplam2=toplam1+250;
-       int toplam3=toplam1+toplam2;
-       System.out.println(5+15/3*2-8%3)
+//Operatörler
+/*
+Aritmetik Operatörler:
++ toplama
+- çıkarma
+* çarpma
+/ bölme
+% mod alma (kalan bulma)
+++ bir artırma (sağdaysa işlemden sonra)
+-- bir azaltma (sağdaysa işlemden sonra)
 
-       /*
-       Atama Operatörleri:
-       =
-       += , -= , *= , /=, %=
-       */
-       int i=1;
-       i=i+5;
-       i+=5;
+NOT: İşlem önceliği vardır.
+() -> * ve / -> + ve -
+Aynı önceliğe sahiplerse işlem sırası solda sağa doğru.
+*/
+int toplam1=100+50;
+int toplam2=toplam1+250;
+int toplam3=toplam1+toplam2;
+System.out.println(5+15/3*2-8%3)
 
-       /*
-       Mantıksal Operatörler:
-       && ve
-       || veya
-       ! değil
-       */
-       boolean sonuc = true && !false;
+/*
+Atama Operatörleri:
+=
++= , -= , *= , /=, %=
+*/
+int i=1;
+i=i+5;
+i+=5;
 
-       /*
-       Karşılaştırma operatörleri:
-       == --> Eşittir
-       != --> Eşit Değil
-       >, <, >=, <=
-       */
-       int y=5;
-       System.out.println(!(y==4));
+/*
+Mantıksal Operatörler:
+&& ve
+|| veya
+! değil
+*/
+boolean sonuc = true && !false;
 
-       /*
-       Koşul Operatörü(Ternary Operator):
-       ?
-       */
-       boolDeger ? "Doğru":"Yanlış";
+/*
+Karşılaştırma operatörleri:
+== --> Eşittir
+!= --> Eşit Değil
+>, <, >=, <=
+*/
+int y=5;
+System.out.println(!(y==4));
+
+/*
+Koşul Operatörü(Ternary Operator):
+?
+*/
+boolDeger ? "Doğru":"Yanlış";
