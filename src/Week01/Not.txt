@@ -49,7 +49,21 @@ Programlama: Bir programı oluşturmak için gerekli komutların
 
 Algoritma: Bir problemin çözmek için takip edilecek sonlu sayıda, sıralı ve kesin
            adımlardan oluşan çözüm yoludur.(Harezmi'nin adından gelir)
-           Algoritma 3 farklı şekilde oluşturulabilir:Satır Algoritması, Akış Şeması(Flow Chart), Sözde Kod(Pseude Code)
+
+           Algoritma 3 farklı şekilde oluşturulabilir:
+           -Satır Algoritması = Problemin çözüm adımları düz metin olarak açık cümlelerle yazılır.
+           -Akış Şeması(Flow Chart) = Problemin çözüm adımları geometrik şekillerle gösterilir.
+           -Sözde Kod(Pseude Code) = Problemin çözüm adımları komut benzeri anlaşılır metinlerle veya
+            kısaltmalarla ifade edilir.
+
+           Algoritmalar 3 çeşitttir:
+           -Doğrusal Algoritma:Akışın düz bir şekilde baştan sona doğru olduğu algoritmalardır.(mantıksal ve döngüsel ifadeler yok)
+           -Mantıksal Algoritma:İçerisinde mantıksal karşılaştırmaların olduğu algoritmalardır.
+           -Döngüsel Algoritma:Bir işlemin birden fazla tekrar etmesi durumunda döngüsel algoritma yapısı kullanılır.
+                                Not: Döngüsel yapı mantıksal yapının özelleştirilmiş halidir.Eğer mantıksal bir karşılaştımanın
+                                     yapıldığı yerden daha ileri bir adıma değilde daha önceki bir adıma gidiliyorsa döngüsel
+                                     yapı olmuş olur.
+
 
 Programlama Dili: İnsanlar ile bilgisayarlar arasındaki iletişimi sağlayan,
             belirli kurallara ve söz dizimine(syntax) sahip olan yapay dillerdir.(Java,C,Python,...)
