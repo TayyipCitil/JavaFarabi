@@ -177,7 +177,7 @@ int sayiInt=(int) sayiDouble;
 short ascii=(short) 'a';
 
 
-//Operatörler
+//Operatörler: işlem yapma özelliği olan simgeler
 /*
 Aritmetik Operatörler:
 + toplama
