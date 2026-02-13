@@ -1,0 +1,30 @@
+Döngü: Tekrar eden belirli işlem bloklarını, gerekli şartlar sağlanana kadar tekrar tekrar yapan yapılara döngü denir.
+
+Not: Gerekli şart asla sağlanmıyorsa sonsuz döngü oluşur.
+
+Sayaç: Döngülerde bazı işlemlerin belirli sayıda yapılması gerekebilir. Bu durumda işlem sayısını kontrol eden bir değişkene(sayaç) ihtiyaç duyarız.
+
+Not: Döngünün sonsuza kadar devam etmesini engellemek için bir döngü koşuluna ihtiyaç vardır.
+
+> Farklı çeşitleri de olmak üzere genel olarak 3 çeşit döngü vardır: while, do-while, for
+
+While 
+While döngüsünün içerisinde bir koşul olur. Doğruysa döngü devam eder yanlışsa durur.
+(Ne zaman biteceği belli olmayan durumlarda kullanılır)
+
+Do While
+Do while döngüsünün çalışma mantığı while döngüsü ile aynıdır. Fakat while döngüsü önce koşula bakar sağlanadıysa kod bloğunu yapar, do while döngüsü ise önce kod bloğunu yapar sonra koşula bakar.
+
+For 
+While döngüsü gibidir ancak yapısında sayaç doğrudan bulunur.
+(Kaç kere tekrar edeceğini bildiğimiz işlemler için kullanılır.)
+
+
+>Döngülerde kullanılan komutlar: break, continue
+
+Break
+Döngü içerisindeki bir koşul yerine geldiğinde döngüyü bitirmeye yarayan bir komuttur.
+
+Continue
+Döngü içerisindeki bir koşul yerine geldiğinde bir sonraki adıma geçmeye yarayan komuttur.
+
