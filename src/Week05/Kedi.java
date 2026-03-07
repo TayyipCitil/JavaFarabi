@@ -1,18 +1,18 @@
 package Week05;
 
-public class Kopek {
+public class Kedi {
     private static int kopekSayisi=0;
     String cins;
     String isim;
     int yas;
 
-    Kopek(){
+    Kedi(){
         kopekSayisi++;
 
     }
 
     public void havla(){
         System.out.println(this.isim);
-        System.out.println("hav");
+        System.out.println("miyav");
     }
 }

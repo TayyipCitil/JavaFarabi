@@ -2,19 +2,19 @@ package Week05;
 
 public class Main {
     static void main() {
-        Kopek kopek1=new Kopek();
-        kopek1.yas=2;
-        kopek1.isim="karabas";
-        kopek1.cins="kangal";
+        Kedi kedi1 =new Kedi();
+        kedi1.yas=3;
+        kedi1.isim="boncuk";
+        kedi1.cins="tekir";
 
 
-        Kopek kopek2=new Kopek();
-        kopek2.yas=2;
-        kopek2.isim="kara";
-        kopek2.cins="kan";
+        Kedi kedi2 =new Kedi();
+        kedi2.yas=2;
+        kedi2.isim="kara";
+        kedi2.cins="siyam";
 
-        kopek1.havla();
-        kopek2.havla();
+        kedi1.havla();
+        kedi2.havla();
 
 
 
