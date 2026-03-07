@@ -11,9 +11,6 @@ public class Kopek {
 
     }
 
-
-
-
     public void havla(){
         System.out.println(this.isim);
         System.out.println("hav");
